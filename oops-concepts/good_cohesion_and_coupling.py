@@ -76,7 +76,7 @@ class ClassRoom:
 
     def register_student(self):
         """Generate student name and roll no. and register the student"""
-        register = StudentRegistry()
+        register = StudentRegistry()  # Can be improved by shifting this to composition?
         return register.create_student()
 
 
